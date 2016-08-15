@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="">
+
+  <title>Simple Survey</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Simple Survey</a>
+      </div>
+    </div><!-- /.container -->
+  </nav><!-- /.navbar -->
+  <div class="container">
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+      <div class="input-group">
+       <h3>What is your favorite programming language ?</h3>
+      </div><!-- /input-group -->
+      <hr>
+
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h4 style="display: inline;margin-right: 12px;"> Thanks for you vote.</h4>
+          <button class="btn btn-primary btn-xs pull-right">View Results</button>
+        </div>
+      </div>
+
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th width="80%">Options</th>
+            <th width="10%">Vote</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Task 1</td>
+            <td><button class="btn btn-primary">Vote</button></td>        
+          </tr>
+          <tr>
+            <td>Task 2</td>
+            <td><button class="btn btn-primary">Vote</button></td>                    
+          </tr>
+          <tr>
+            <td>Task 3</td>
+            <td><button class="btn btn-primary">Vote</button></td>        
+          </tr>
+        </tbody>
+      </table>
+
+      <ul class="list-group">
+        <li class="list-group-item"><span class="badge">12</span> New</li>
+        <li class="list-group-item"><span class="badge">5</span> Deleted</li> 
+        <li class="list-group-item"><span class="badge">3</span> Warnings</li> 
+      </ul>
+      <button class="btn btn-primary pull-right btn-xs">Vote again</button>
+
+    </div><!--/.col-xs-12.col-sm-9-->
+    <div class="col-lg-3 col-md-3 hidden-xs hidden-sm" id="sidebar">
+      <div class="jumbotron" style="height:500px;">
+      </div>
+    </div><!--/.sidebar-->
+  </div><!--/.container-->
+  <hr>
+</body>
+</html>
